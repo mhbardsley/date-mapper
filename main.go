@@ -59,7 +59,7 @@ func mapDate(x, a, b, c, d time.Time) (time.Time, error) {
 
 	// Calculate the difference between a and b in nanoseconds
 	ab := b.Sub(a).Nanoseconds()
-	
+
 	// Calculate the difference between c and d in nanoseconds
 	cd := d.Sub(c).Nanoseconds()
 
